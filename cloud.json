@@ -1,0 +1,124 @@
+{
+  "courseTitle": "Cloud Application and Development Foundation",
+  "courseCode": "CMP 378",
+
+  "creditHours": {
+    "theory": 2,
+    "practical": 2,
+    "total": 4
+  },
+  "units": [
+    {
+      "unitTitle": "Introduction",
+      "creditHours": 4,
+      "topics": [
+        {
+          "title": "Distributed Computing"
+        },
+        {
+          "title": "Collaborative Computing"
+        },
+        {
+          "title": "Cloud Computing",
+          "subtopics": [
+            "Functioning of Cloud Computing",
+            "Cloud Architecture, IaaS, PaaS, SaaS",
+            "Cloud Storage",
+            "Cloud Services",
+            "Industrial Applications"
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Cloud Service Administration",
+      "creditHours": 4,
+      "topics": [
+        "Monitoring and Support Services",
+        "Resource Management, Performance Management, Provisioning",
+        "IT Security in Cloud Infrastructure",
+        "Managing Environment Variables"
+      ]
+    },
+    {
+      "unitTitle": "Applications in the Cloud",
+      "creditHours": 8,
+      "topics": [
+        {
+          "title": "Web Services Deployment",
+          "subtopics": [
+            "Web Application Framework in Cloud",
+            "Web Hosting Services",
+            "APIs in Cloud"
+          ]
+        },
+        {
+          "title": "Cloud Continuous Delivery",
+          "subtopics": [
+            "DevOps",
+            "Git Basics",
+            "Containerization, Basics of Docker",
+            "Creating a Basic CI/CD Pipeline"
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Data Management",
+      "creditHours": 4,
+      "topics": [
+        "Data Security, Data Location, Data Control",
+        "Scalability and Cloud Services",
+        "Large-Scale Data Processing",
+        "Databases and Data-stores in a Cloud Platform",
+        "Data Archival"
+      ]
+    },
+    {
+      "unitTitle": "Cloud Computing Standards",
+      "creditHours": 4,
+      "topics": [
+        "Best Practices and Standards",
+        {
+          "title": "Practical Issues",
+          "subtopics": [
+            "Interoperability",
+            "Portability",
+            "Integration",
+            "Security"
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "AWS, GCP, and Azure",
+      "creditHours": 6,
+      "topics": [
+        {
+          "title": "AWS",
+          "subtopics": [
+            "IAM",
+            "AWS CLI",
+            "EC2"
+          ]
+        },
+        {
+          "title": "GCP",
+          "subtopics": [
+            "Cloud IAM",
+            "Google Cloud CLI",
+            "Google Compute Engine (GCE)"
+          ]
+        },
+        {
+          "title": "Azure",
+          "subtopics": [
+            "Azure IAM",
+            "Azure CLI",
+            "Azure Virtual Machines"
+          ]
+        }
+      ]
+    }
+  ]
+}

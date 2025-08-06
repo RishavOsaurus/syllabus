@@ -1,0 +1,229 @@
+{
+  "courseTitle": "Software Dependability",
+  "courseCode": "CMP 382",
+  "creditHours": {
+    "theory": 3,
+    "tutorial": 1,
+    "practical": 2,
+    "total": 6
+  },
+  "units": [
+    {
+      "unitTitle": "Software Dependability",
+      "creditHours": 4,
+      "topics": [
+        {
+          "title": "Overview of Software Dependability"
+        },
+        {
+          "title": "Key Dimensions of Dependability",
+          "subtopics": [
+            "Availability",
+            "Reliability",
+            "Safety",
+            "Security",
+            "Faults",
+            "Error",
+            "Failure"
+          ]
+        },
+        {
+          "title": "Fault tolerance and recovery techniques"
+        },
+        {
+          "title": "Dependability vs reliability vs safety vs security"
+        }
+      ]
+    },
+    {
+      "unitTitle": "Markov Chain Modeling",
+      "creditHours": 4,
+      "topics": [
+        {
+          "title": "Introduction to Markov Chains and Their Application in Software Dependability"
+        },
+        {
+          "title": "Types of Markov Chains",
+          "subtopics": [
+            "Discrete-Time",
+            "Continuous-Time"
+          ]
+        },
+        {
+          "title": "Advantages and Disadvantages of Markov Modeling"
+        },
+        {
+          "title": "When Not to Use Markov Modeling"
+        }
+      ]
+    },
+    {
+      "unitTitle": "Software Reliability",
+      "creditHours": 8,
+      "topics": [
+        {
+          "title": "Introduction to Software Reliability"
+        },
+        {
+          "title": "Significance of Reliability in Software Systems"
+        },
+        {
+          "title": "Reliability Metrics",
+          "subtopics": [
+            "MTBF",
+            "MTTF",
+            "Failure Rate"
+          ]
+        },
+        {
+          "title": "Reliability prediction and estimation",
+          "subtopics": [
+            "MTTF",
+            "MTBF",
+            "MTTCF (Mean Time To Critical Failure)",
+            "Availability",
+            "Reliability",
+            "Defect Density"
+          ]
+        },
+        {
+          "title": "FMEA"
+        },
+        {
+          "title": "Mathematical Models of Software Reliability"
+        }
+      ]
+    },
+    {
+      "unitTitle": "Software Availability",
+      "creditHours": 4,
+      "topics": [
+        {
+          "title": "Introduction to Software Availability"
+        },
+        {
+          "title": "Importance of Availability in System Dependability"
+        },
+        {
+          "title": "Availability Metrics",
+          "subtopics": [
+            "Uptime",
+            "Downtime",
+            "Availability Ratio"
+          ]
+        },
+        {
+          "title": "Mathematical Models of Availability"
+        }
+      ]
+    },
+    {
+      "unitTitle": "Software Safety",
+      "creditHours": 5,
+      "topics": [
+        {
+          "title": "Safety-Critical Systems"
+        },
+        {
+          "title": "Safety Requirements and Hazard Analysis"
+        },
+        {
+          "title": "Safety Engineering Processes",
+          "subtopics": [
+            "Design",
+            "Implementation",
+            "Testing"
+          ]
+        },
+        {
+          "title": "Safety Cases and Their Role in Certification"
+        }
+      ]
+    },
+    {
+      "unitTitle": "Software Fault Tolerance",
+      "creditHours": 6,
+      "topics": [
+        {
+          "title": "Introduction to Software Fault Tolerance"
+        },
+        {
+          "title": "System Survivability and Measuring System Survivability"
+        },
+        {
+          "title": "Design pattern for Fault Tolerance"
+        },
+        {
+          "title": "Fault Minimization and Tolerance Techniques"
+        },
+        {
+          "title": "Fault Tolerance Architecture",
+          "subtopics": [
+            "N-Version Programming",
+            "Recovery Blocks"
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Software Rejuvenation",
+      "creditHours": 5,
+      "topics": [
+        {
+          "title": "Introduction to Software Rejuvenation and Software Aging"
+        },
+        {
+          "title": "Analytical Models for Software Rejuvenation"
+        },
+        {
+          "title": "Software Rejuvenation in Transaction-Based Software Systems"
+        },
+        {
+          "title": "Case Study: IBM X-Series Cluster Servers"
+        },
+        {
+          "title": "Approaches and Methods of Software Rejuvenation"
+        },
+        {
+          "title": "Granularity of Rejuvenation"
+        }
+      ]
+    },
+    {
+      "unitTitle": "Software Security",
+      "creditHours": 5,
+      "topics": [
+        {
+          "title": "The Relationship Between Security and Dependability"
+        },
+        {
+          "title": "Security Requirements for Dependable Systems"
+        },
+        {
+          "title": "Secure Systems Design Principles"
+        },
+        {
+          "title": "Security Testing and Assurance Techniques"
+        },
+        {
+          "title": "Common vulnerabilities and attack vectors"
+        }
+      ]
+    },
+    {
+      "unitTitle": "Software Maintenance and Evolution",
+      "creditHours": 4,
+      "topics": [
+        {
+          "title": "Managing changes and updates in a dependable system"
+        },
+        {
+          "title": "Handling dependencies and ensuring consistency"
+        },
+        {
+          "title": "Reliability Maintenance over time"
+        }
+      ]
+    }
+  ]
+}

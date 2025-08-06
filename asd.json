@@ -1,0 +1,97 @@
+{
+  "courseTitle": "Agile Software Development",
+  "courseCode": "CMP 376",
+  "creditHours": {
+    "theory": 3,
+    "tutorial": 1,
+    "practical": 2,
+    "total": 6
+  },
+  "units": [
+    {
+      "unitTitle": "Introduction to Agile Software Development",
+      "creditHours": 3,
+      "topics": [
+        { "title": "History of Software Development Methodologies - Overview of traditional vs. Agile methodologies" },
+        { "title": "Agile Manifesto and Principles - Understanding the values and principles that define Agile" },
+        { "title": "Benefits and Challenges of Agile - Pros and cons of adopting Agile in different environments" }
+      ]
+    },
+    {
+      "unitTitle": "Agile Frameworks",
+      "creditHours": 7,
+      "topics": [
+        { "title": "Scrum Framework - Roles: Scrum Master, Product Owner, Development Team" },
+        { "title": "Scrum Framework - Artifacts: Product Backlog, Sprint Backlog, Increment" },
+        { "title": "Scrum Framework - Events: Daily Stand-up, Backlog refinement/grooming, Sprint Planning, Sprint Review, Sprint Retrospective" },
+        { "title": "Kanban - Kanban principles, Visualizing workflow, Managing work in progress (WIP)" },
+        { "title": "Extreme Programming (XP) - Core practices: Test-Driven Development, Pair Programming, Continuous Integration, XP roles and values" },
+        { "title": "Lean Software Development - Lean principles, Eliminating waste, Continuous improvement" }
+      ]
+    },
+    {
+      "unitTitle": "Agile Project Management",
+      "creditHours": 6,
+      "topics": [
+        { "title": "Agile Planning and Estimation - User stories, Story points and planning poker, Release planning" },
+        { "title": "Managing Agile Projects - Iterative development, Incremental delivery, Tracking progress with burndown/burnup charts/dashboards" },
+        { "title": "Risk Management in Agile - Identifying and mitigating risks, Adapting to changes" }
+      ]
+    },
+    {
+      "unitTitle": "Agile Tools and Technologies",
+      "creditHours": 6,
+      "topics": [
+        { "title": "Project Management Tools, Features and best practices" },
+        { "title": "Collaboration Tools, Enhancing team communication" },
+        { "title": "Continuous Integration/Continuous Deployment (CI/CD) – Tools and Implementing CI/CD pipelines" }
+      ]
+    },
+    {
+      "unitTitle": "Agile Practices and Techniques",
+      "creditHours": 6,
+      "topics": [
+        { "title": "Test-Driven Development (TDD) - Writing and executing tests before code" },
+        { "title": "Behavior-Driven Development (BDD) - Bridging the gap between business and technical teams" },
+        { "title": "Pair Programming and Mob Programming - Enhancing code quality and team collaboration" },
+        { "title": "Refactoring and Code Reviews - Improving codebase maintainability" }
+      ]
+    },
+    {
+      "unitTitle": "Scaling Agile",
+      "creditHours": 4,
+      "topics": [
+        { "title": "Scaling Frameworks - SAFe (Scaled Agile Framework)" },
+        { "title": "Managing Large Agile Teams - Coordination and communication strategies, Integrating multiple Agile teams" }
+      ]
+    },
+    {
+      "unitTitle": "Agile Metrics and Reporting",
+      "creditHours": 3,
+      "topics": [
+        { "title": "Key Performance Indicators (KPIs): Velocity, cycle time, lead time" },
+        { "title": "Reporting Tools and Dashboards - Visualizing team performance" },
+        { "title": "Continuous Improvement through Metrics - Using data to drive process enhancements" }
+      ]
+    },
+    {
+      "unitTitle": "Agile in Practice",
+      "creditHours": 6,
+      "topics": [
+        { "title": "Case Studies of Agile Success and Failures - Analyzing real-world examples" },
+        { "title": "Agile Transformation - Steps to transition from traditional to Agile" },
+        { "title": "Assignment/ Project - Applying Agile methodologies in a team project, Presentations and evaluations" }
+      ]
+    },
+    {
+      "unitTitle": "Soft Skills for Agile Teams",
+      "creditHours": 4,
+      "topics": [
+        { "title": "Effective Communication - Facilitating open and honest dialogue" },
+        { "title": "Conflict Resolution - Managing and resolving team conflicts" },
+        { "title": "Leadership in Agile Teams - Servant Leadership Principles" },
+        { "title": "Building a Collaborative Culture - Fostering trust and accountability" }
+      ]
+    }
+  ]
+}

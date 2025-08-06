@@ -1,0 +1,130 @@
+{
+  "courseTitle": "Engineering Management",
+  "courseCode": "MGT 320",
+  "creditHours": {
+    "theory": 2,
+    "tutorial": 1,
+    "practical": 0,
+    "total": 3
+  },
+  "units": [
+    {
+      "unitTitle": "Introduction",
+      "creditHours": 6,
+      "topics": [
+        {
+          "title": "Management",
+          "subtopics": [
+            "Functions of management",
+            "Level and scope of management",
+            "Principles of management"
+          ]
+        },
+        {
+          "title": "Organization",
+          "subtopics": [
+            "Characteristics of organization",
+            "Types of organization: formal and informal organizations, virtual organization"
+          ]
+        },
+        {
+          "title": "Engineering Management",
+          "subtopics": [
+            "Importance of management in technology-driven environments",
+            "Engineering functions in organizations: product development, operations, IT systems, quality assurance and others",
+            "Roles and responsibilities of an engineering manager"
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Planning and Organizing",
+      "creditHours": 6,
+      "topics": [
+        {
+          "title": "Planning",
+          "subtopics": [
+            "Levels of planning: strategic, tactical and operational",
+            "Steps in planning",
+            "Tools for planning",
+            "Importance of planning"
+          ]
+        },
+        {
+          "title": "Organizing",
+          "subtopics": [
+            "Process of organizing",
+            "Organization structure",
+            {
+              "title": "Types of organization structure",
+              "subtopics": [
+                "Traditional structure: line and functional",
+                "Modern structure: matrix, network, hybrid"
+              ]
+            }
+          ]
+        },
+        "Emerging planning and organizing issues for ICT enterprises"
+      ]
+    },
+    {
+      "unitTitle": "Motivation and Leadership",
+      "creditHours": 6,
+      "topics": [
+        {
+          "title": "Motivation",
+          "subtopics": [
+            "Theories of motivation: Maslow’s hierarchy, Herzberg’s two factor, Expectancy, Equity",
+            "Techniques for motivation"
+          ]
+        },
+        {
+          "title": "Leadership",
+          "subtopics": [
+            "Leadership styles: autocratic, democratic, servant and transformational",
+            "Characteristics of learning organization in the ICT industry"
+          ]
+        },
+        "Challenges and strategies for motivating and leading technical workforce"
+      ]
+    },
+    {
+      "unitTitle": "Human Resource Management and Control",
+      "creditHours": 8,
+      "topics": [
+        {
+          "title": "Human Resource Management",
+          "subtopics": [
+            "Functions of human resource management",
+            "Job analysis, job specification, job description",
+            "Recruitment and selection",
+            "Human resource training (on the job and off the job)",
+            "Performance appraisal and methods",
+            "Challenges in managing people in ICT workforce"
+          ]
+        },
+        {
+          "title": "Control",
+          "subtopics": [
+            "Importance",
+            "Process and types",
+            "Techniques",
+            "ICT tools for effective control of engineering projects and organizations"
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Emerging Trends in Engineering Management",
+      "creditHours": 4,
+      "topics": [
+        "Participative management",
+        "Conflict resolution",
+        "Change management",
+        "Quality management",
+        "Innovation management and disruption",
+        "Recent engineering management concepts for managing ICT based projects and organizations"
+      ]
+    }
+  ]
+}

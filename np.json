@@ -1,0 +1,233 @@
+{
+  "courseTitle": "Network Programming",
+  "courseCode": "CMP 380",
+
+  "creditHours": {
+    "theory": 3,
+    "practical": 2,
+    "total": 5
+  },
+  "units": [
+    {
+      "unitTitle": "Network Programming Fundamentals",
+      "creditHours": 5,
+      "topics": [
+        "Introduction and importance of networking and network programming",
+        "Fundamentals of Client-server and P2P models",
+        {
+          "title": "Basic Network Protocols",
+          "subtopics": [
+            "Characteristics and use cases of TCP, IP, UDP, SCTP"
+          ]
+        },
+        "TCP state transition diagram",
+        "Comparisons of protocols (TCP, UDP, SCTP)",
+        {
+          "title": "Introduction to Sockets",
+          "subtopics": [
+            "Concept of sockets in network communication",
+            "Types of sockets: Stream (TCP) vs Datagram (UDP)"
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Basics of Unix Network Programming",
+      "creditHours": 12,
+      "topics": [
+        "Overview of Unix OS and Network Administration",
+        "Unix socket introduction",
+        {
+          "title": "Socket Address Structures",
+          "subtopics": [
+            "Generic socket: struct sockaddr",
+            "IPv4: struct sockaddr_in",
+            "IPv6: struct sockaddr_in6",
+            "Unix Domain Sockets: struct sockaddr_un",
+            "Storage: struct sockaddr_storage"
+          ]
+        },
+        "Comparisons of various socket address structure",
+        "Value-result arguments",
+        "Byte ordering and manipulation functions",
+        "Hostname and Network Name Lookups",
+        {
+          "title": "Basic socket system calls",
+          "subtopics": [
+            "Elementary TCP Sockets",
+            "Elementary UDP Sockets"
+          ]
+        },
+        {
+          "title": "Unix Domain Socket",
+          "subtopics": [
+            "Passing file descriptors"
+          ]
+        },
+        {
+          "title": "Signal Handling in Unix",
+          "subtopics": [
+            "Introduction to signals",
+            "Handling signals in network applications (e.g., SIGINT, SIGIO)",
+            "Signal functions (signal(), sigaction())"
+          ]
+        },
+        {
+          "title": "Daemon Processes",
+          "subtopics": [
+            "Characteristics of daemon processes",
+            "Converting a program into a daemon",
+            "Daemonizing techniques in Unix"
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Advance Unix Network Programming",
+      "creditHours": 12,
+      "topics": [
+        {
+          "title": "I/O Models in Unix",
+          "subtopics": [
+            "Blocking I/O",
+            "Non-blocking I/O",
+            "I/O multiplexing (select(), pselect(), poll())",
+            "Signal-driven I/O",
+            "Asynchronous I/O"
+          ]
+        },
+        {
+          "title": "Concurrent Server Design",
+          "subtopics": [
+            "Overview of process and threads",
+            "Fork() and exec() function",
+            "Using fork() to handle multiple clients",
+            "Using select() to handle multiple socket descriptors",
+            "Multithreading model using pthreads"
+          ]
+        },
+        "Implementing broadcast and multicast communication",
+        {
+          "title": "Socket Options",
+          "subtopics": [
+            "setsockopt(), getsockopt(), fcntl(), ioctl()",
+            "Common options: SO_REUSEADDR, SO_BROADCAST, SO_KEEPALIVE, SO_LINGER"
+          ]
+        },
+        {
+          "title": "Logging in Unix",
+          "subtopics": [
+            "Introduction to Syslog",
+            "Logging messages from network applications",
+            "Configuring syslog(), openlog(), closelog()"
+          ]
+        },
+        "Socket operations",
+        "Introduction to P2P programming",
+        "P2P Socket fundamentals",
+        {
+          "title": "Overview of Network Security Programming",
+          "subtopics": [
+            "Defining Security",
+            "Challenges of Security",
+            "Securing by Hostname or Domain Name",
+            "Identification by IP Number",
+            "Wrapper program to implement simple security policy"
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Basics of Winsock Network Programming",
+      "creditHours": 6,
+      "topics": [
+        {
+          "title": "Introduction to Winsock",
+          "subtopics": [
+            "Overview of the Winsock API",
+            "Differences between Unix and Winsock programming",
+            "Winsock DLL",
+            "Setting Up Winsock Environment",
+            "WSAStartup() and WSACleanup()"
+          ]
+        },
+        {
+          "title": "Basic Winsock API Functions",
+          "subtopics": [
+            "socket(), bind(), listen(), accept()",
+            "send(), recv(), closesocket()",
+            "Functions for handling Blocked IO",
+            "Asynchronous IO functions",
+            "Creating Simple TCP/UDP Clients and Servers"
+          ]
+        }
+      ]
+    },
+    {
+      "unitTitle": "Advanced Winsock Programming",
+      "creditHours": 5,
+      "topics": [
+        {
+          "title": "Asynchronous I/O and Nonblocking operations in Winsock",
+          "subtopics": [
+            "Error handling functions",
+            "Using non-blocking sockets",
+            "Select with accept, recv/recvfrom, send/sendto",
+            "Overlapped I/O",
+            {
+              "title": "Event-driven programming",
+              "subtopics": [
+                "WSAEventSelect()",
+                "Completion routines"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Winsock Extensions",
+          "subtopics": [
+            "WSAPoll()",
+            "Event management with WSAEventSelect()"
+          ]
+        },
+        "Implementation of basic cross-platform application"
+      ]
+    },
+    {
+      "unitTitle": "Network Utilities, Current Trends and Emerging Technologies",
+      "creditHours": 5,
+      "topics": [
+        {
+          "title": "Network Utilities and Applications",
+          "subtopics": [
+            "ping, telnet, ip/ifconfig, iperf, netstat, remote login"
+          ]
+        },
+        {
+          "title": "Real-Time Communication Protocols",
+          "subtopics": [
+            "WebSockets",
+            "gRPC"
+          ]
+        },
+        {
+          "title": "Security in Network Programming",
+          "subtopics": [
+            "TLS/SSL",
+            "Encryption",
+            "Hashing",
+            "Certificates"
+          ]
+        },
+        {
+          "title": "Software-Defined Networking (SDN)",
+          "subtopics": [
+            "Overview of SDN concepts",
+            "OpenFlow protocol and SDN controllers",
+            "Introduction to P4 and frenetic programming"
+          ]
+        }
+      ]
+    }
+  ]
+}
